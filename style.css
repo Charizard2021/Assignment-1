@@ -41,7 +41,7 @@ body{
 
 .img1{
     border-top-left-radius: 18px;
-    border-top-right-radius: 18px;;
+    border-top-right-radius: 18px;
 }
 
 .mainContent{
@@ -166,5 +166,17 @@ body{
 }
 
 
+@media (max-width: 449px){
 
+    .card{
+        width: 100%;
+    }
+
+    .img1{
+        width: 100%;
+    }
+
+  
+
+}
 
