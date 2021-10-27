@@ -88,6 +88,27 @@ body{
     
 }
 
+.subContent .child1{
+    flex-shrink: 4;
+    flex-basis: 40%;
+    /*background: green;*/
+}
+
+.subContent .child2{
+    flex-shrink: 4;
+    flex-basis: 40%;
+    /*background: red;*/
+    padding-right: 10px;
+}
+
+.subContent .child3{
+    flex-shrink: 2;
+    flex-basis: 20%;
+    /*background: yellow;*/
+    padding-top: 15px;
+    /*padding-left: 80px;*/
+}
+
 .subContent div p:nth-child(1){
     font-weight: bolder;
 }
@@ -99,7 +120,7 @@ body{
 .subContent a{
     color: hsl(245, 75%, 52%);
     font-weight: bolder;
-    
+    padding-left: 60px; 
 
 }
 
@@ -137,9 +158,11 @@ body{
 
 }
 
-.cancelContainer p{
+.cancelContainer a{
     color: hsl(224, 23%, 55%);
     font-weight: bolder;
+    text-decoration: none;
+    font-size: 1.25em;
 }
 
 
